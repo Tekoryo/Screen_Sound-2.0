@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Programação\\Linguagem C Alura\\C# na alura\\Screen_Sound-2.0\\Screen_Sound-2.0.csproj": {}
+    "h:\\Programação\\Linguagem C Alura\\C# na alura\\Screen_Sound-2.0\\Screen_Sound-2.0.csproj": {}
   },
   "projects": {
-    "H:\\Programação\\Linguagem C Alura\\C# na alura\\Screen_Sound-2.0\\Screen_Sound-2.0.csproj": {
+    "h:\\Programação\\Linguagem C Alura\\C# na alura\\Screen_Sound-2.0\\Screen_Sound-2.0.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Programação\\Linguagem C Alura\\C# na alura\\Screen_Sound-2.0\\Screen_Sound-2.0.csproj",
+        "projectUniqueName": "h:\\Programação\\Linguagem C Alura\\C# na alura\\Screen_Sound-2.0\\Screen_Sound-2.0.csproj",
         "projectName": "Screen_Sound-2.0",
-        "projectPath": "H:\\Programação\\Linguagem C Alura\\C# na alura\\Screen_Sound-2.0\\Screen_Sound-2.0.csproj",
+        "projectPath": "h:\\Programação\\Linguagem C Alura\\C# na alura\\Screen_Sound-2.0\\Screen_Sound-2.0.csproj",
         "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "H:\\Programação\\Linguagem C Alura\\C# na alura\\Screen_Sound-2.0\\obj\\",
+        "outputPath": "h:\\Programação\\Linguagem C Alura\\C# na alura\\Screen_Sound-2.0\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thiag\\AppData\\Roaming\\NuGet\\NuGet.Config"

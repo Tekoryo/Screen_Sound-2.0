@@ -1,0 +1,14 @@
+H:\Programação\Linguagem C Alura\C# na alura\Screen_Sound-2.0\bin\Debug\net7.0\Screen_Sound-2.0.exe
+H:\Programação\Linguagem C Alura\C# na alura\Screen_Sound-2.0\bin\Debug\net7.0\Screen_Sound-2.0.deps.json
+H:\Programação\Linguagem C Alura\C# na alura\Screen_Sound-2.0\bin\Debug\net7.0\Screen_Sound-2.0.runtimeconfig.json
+H:\Programação\Linguagem C Alura\C# na alura\Screen_Sound-2.0\bin\Debug\net7.0\Screen_Sound-2.0.dll
+H:\Programação\Linguagem C Alura\C# na alura\Screen_Sound-2.0\bin\Debug\net7.0\Screen_Sound-2.0.pdb
+H:\Programação\Linguagem C Alura\C# na alura\Screen_Sound-2.0\obj\Debug\net7.0\Screen_Sound-2.0.GeneratedMSBuildEditorConfig.editorconfig
+H:\Programação\Linguagem C Alura\C# na alura\Screen_Sound-2.0\obj\Debug\net7.0\Screen_Sound-2.0.AssemblyInfoInputs.cache
+H:\Programação\Linguagem C Alura\C# na alura\Screen_Sound-2.0\obj\Debug\net7.0\Screen_Sound-2.0.AssemblyInfo.cs
+H:\Programação\Linguagem C Alura\C# na alura\Screen_Sound-2.0\obj\Debug\net7.0\Screen_Sound-2.0.csproj.CoreCompileInputs.cache
+H:\Programação\Linguagem C Alura\C# na alura\Screen_Sound-2.0\obj\Debug\net7.0\Screen_Sound-2.0.dll
+H:\Programação\Linguagem C Alura\C# na alura\Screen_Sound-2.0\obj\Debug\net7.0\refint\Screen_Sound-2.0.dll
+H:\Programação\Linguagem C Alura\C# na alura\Screen_Sound-2.0\obj\Debug\net7.0\Screen_Sound-2.0.pdb
+H:\Programação\Linguagem C Alura\C# na alura\Screen_Sound-2.0\obj\Debug\net7.0\Screen_Sound-2.0.genruntimeconfig.cache
+H:\Programação\Linguagem C Alura\C# na alura\Screen_Sound-2.0\obj\Debug\net7.0\ref\Screen_Sound-2.0.dll
