@@ -1,5 +1,3 @@
-using System.Reflection.Metadata.Ecma335;
-
 class Musica
 {
     public string Nome {get;set;}
@@ -12,7 +10,7 @@ class Musica
     {
         Console.WriteLine($"Nome: {Nome}");
         Console.WriteLine($"Artista: {Artista}");
-        Console.WriteLine($"duracao: {Duracao} min");
+        Console.WriteLine($"duracao: {Duracao} seg");
         if(Disponivel){
         Console.WriteLine($"disponivel: Sim!");
         }else{

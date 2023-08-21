@@ -1,12 +1,25 @@
-﻿Musica musica1 = new Musica();
+﻿Album albumOSteve = new Album();
+Genero rap = new Genero();
 
-musica1.Nome = "thuender";
-musica1.Artista = "Não sei";
-musica1.Duracao = 4;
-musica1.Disponivel = false;
+albumOSteve.Nome = "Lindas Mentiras";
+rap.Nome = "Rap";
 
-//musica1.ExibirFichaTecnica();
-musica1.ExibirFichaTecnica();
+Musica musica1 = new Musica();
+musica1.Nome = "Lindas Mentiras";
+musica1.Duracao = 217;
+
+Musica musica2 = new Musica();
+musica2.Nome = "Noite sem fim";
+musica2.Duracao = 213;
+
+albumOSteve.AdicionarMusica(musica1);
+albumOSteve.AdicionarMusica(musica2);
+rap.AdicionarMusica(musica1);
+rap.AdicionarMusica(musica2);
+
+albumOSteve.ExibirAlbum();
+rap.ExibirGenero();
+
 
 
 
