@@ -1,7 +1,12 @@
 class Genero
 {
     private List<Musica> musicas = new List<Musica>();
-        public String Nome { get; set; }
+
+    public Genero(String nome)
+    {
+        Nome = nome;
+    }
+        public String Nome { get; }
 
     public void AdicionarMusica(Musica musica)
     {

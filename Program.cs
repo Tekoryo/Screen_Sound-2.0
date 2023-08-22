@@ -1,19 +1,24 @@
-﻿Album albumOSteve = new Album();
-Genero rap = new Genero();
-Banda OSteve = new Banda();
+﻿Album albumOSteve = new Album("Lindas Mentiras");
+Genero rap = new Genero("Rap");
+Banda OSteve = new Banda("OSteve");
 
-OSteve.Nome = "OSteve";
-albumOSteve.Nome = "Lindas Mentiras";
-rap.Nome = "Rap";
+Musica musica1 = new Musica(OSteve,"Lindas Mentiras")
+{
+    Duracao =217,
+    Disponivel = true,
+};
 
-Musica musica1 = new Musica(OSteve);
-musica1.Nome = "Lindas Mentiras";
-musica1.Duracao = 217;
 
-Musica musica2 = new Musica(OSteve);
-musica2.Nome = "Noite sem fim";
-musica2.Duracao = 213;
+Musica musica2 = new Musica(OSteve,"Noite sem fim")
+{
+    Duracao = 213,
+    Disponivel = false,
+};
 
+
+
+musica1.ExibirFichaTecnica();
+musica2.ExibirFichaTecnica();
 albumOSteve.AdicionarMusica(musica1);
 albumOSteve.AdicionarMusica(musica2);
 rap.AdicionarMusica(musica1);
@@ -24,7 +29,6 @@ rap.ExibirGenero();
 
 OSteve.AdicionarAlbum(albumOSteve);
 OSteve.ExibirAlbum();
-
 
 
 
