@@ -16,6 +16,16 @@ Musica musica2 = new Musica(OSteve,"Noite sem fim")
 };
 
 
+void CadastroDeUsuario()
+{
+
+}
+
+void LoginDeUsuario()
+{
+    
+}
+
 
 musica1.ExibirFichaTecnica();
 musica2.ExibirFichaTecnica();
