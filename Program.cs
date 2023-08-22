@@ -20,7 +20,7 @@ Musica musica2 = new Musica(OSteve,"Noite sem fim")
 Thiago.AddNaPlaylist(musica1);
 Thiago.AddNaPlaylist(musica2);
 
-
+Thiago.ExibirPlaylist();
 
 
 

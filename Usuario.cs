@@ -9,10 +9,10 @@ class Usuario
 
     public void AddNaPlaylist(Musica musica)
     {
-        favorito.AddPlaylist(musica);
+        favorito.AddMusicaPlaylist(musica);
     }
     public void ExibirPlaylist()
     {
-       
+       favorito.ExibirPlaylist();
     }
 }
