@@ -1,13 +1,18 @@
 class Usuario
 {
-    public String NomeDeUsuario {get; set;}
-    public int SenhaDoUsuario {get; set;}
-
-    public void CadastroDeUsuario()
+    Playlist favorito = new Playlist("favorito");
+    public Usuario(String nomeDeUsuario)
     {
-
+        NomeDeUsuario = nomeDeUsuario;
     }
-    public void LoginDeUsuario(){
-            
+    public string NomeDeUsuario {get;}
+
+    public void AddNaPlaylist(Musica musica)
+    {
+        favorito.AddPlaylist(musica);
+    }
+    public void ExibirPlaylist()
+    {
+       
     }
 }
