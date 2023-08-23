@@ -1,6 +1,7 @@
 class Playlist
 {
     List<Musica> musicas = new List<Musica>();
+    List<Podcast> podcast = new List<Podcast>();
     public Playlist(String nomePlaylist)
     {
         Nome = nomePlaylist;
