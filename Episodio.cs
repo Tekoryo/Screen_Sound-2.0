@@ -2,29 +2,27 @@ using System.Diagnostics.Contracts;
 
 class Episodio{
 
-    List<int> Convidado = new List<int>();
+    List<string> Convidado = new List<string>();
 
-    public Episodio(string titulo, int duracao, int ordem, string resumo)
+    public Episodio(string titulo, int duracao, int ordem)
     {
         Titulo = titulo;
         Duracao = duracao;
         Ordem = ordem;
-        Resumo = resumo;
+       
     }
   
     public string Titulo {get; }
     public int Duracao {get; }
     public int Ordem {get; }
-    public string Resumo {get; }
+    public string Resumo => $"{Ordem}º {Titulo} - ({Duracao} min) - {string.Join(", ",Convidado)}";
 
-    public void AdicionarConvidado(int NomeConvidado){
+    public void AdicionarConvidado(string NomeConvidado){
         Convidado.Add(NomeConvidado);
     }
-    public void ExibirEpisodio(){
-        Console.WriteLine($"Episodio: {Ordem}º - {Titulo}\n");
-        Console.WriteLine($"Duração: {Duracao}\n");
-        Console.WriteLine($"Detalhe do Ep: {Resumo}\n");
-
+    public void ExibirEpisodio()
+    {
+        Console.WriteLine(Resumo);
     }
 
 }

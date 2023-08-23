@@ -16,11 +16,14 @@ Musica musica2 = new Musica(OSteve,"Noite sem fim")
     Disponivel = false,
 };
 
-Episodio Eps1 = new Episodio("Basico de c#",2400,1,"Vamos Aprender a usar o C#");
+Episodio Eps1 = new Episodio("Basico de c#",45,1);
 
-Eps1.AdicionarConvidado(2);
+Eps1.AdicionarConvidado("Victor");
+Eps1.AdicionarConvidado("Maria");
+Eps1.AdicionarConvidado("João");
 
-Episodio Eps2 = new Episodio("Avançando no c#",2400,2,"Vamos avança no C#");
+Episodio Eps2 = new Episodio("Avançando no c#",49,2);
+Eps2.AdicionarConvidado("Thiago");
 
 Thiago.AddNaPlaylist(musica1);
 Thiago.AddNaPlaylist(musica2);
